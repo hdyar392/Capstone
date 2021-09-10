@@ -10,12 +10,18 @@ function Header() {
                 <img src={logo} className="App-logo" alt="logo"/>
             </header>
             <div className="menu-bar">
-                <h4 className="menu-item"><Link to="/">Home</Link></h4>
-                <h4 className="menu-item"><Link to="/">Guide</Link></h4>
-                <h4 className="menu-item"><Link to="/">Monitor/Control</Link></h4>
-                <h4 className="menu-item"><Link to="/">My Aquarium</Link></h4>
-                <h4 className="menu-item"><Link to="/">Help</Link></h4>
-                <h4 className="menu-item"><Link to="/">FAQ</Link></h4>
+                <h4 className="menu-item">
+                    <a><Link to= "/">HomePage</Link></a>
+                </h4>
+                <h4 className="menu-item">
+                    <li><Link to= "/Guide">Guide</Link></li>
+                </h4>
+                <h4 className="menu-item">
+                    <li><Link to= "/Monitor_Control">Monitor_Control</Link></li>
+                </h4>
+                <h4 className="menu-item">
+                    <li><Link to= "/My_Aquarium">My_Aquarium</Link></li>
+                </h4>
             </div>
         </div>
     )
