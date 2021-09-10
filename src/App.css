@@ -35,6 +35,11 @@
  .student-info {
    font-style: italic;
  }
+
+ li::marker {
+  color: #2de0b4;
+  font-size: 0;
+}
  
 /*
 @media (prefers-reduced-motion: no-preference) {

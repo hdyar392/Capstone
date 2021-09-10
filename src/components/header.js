@@ -1,17 +1,17 @@
 import React from 'react'
 import '../App.css'
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import logo from '../images/logo.png'
  
 function Header() {
     return (
         <div > 
             <header className="App-header">  
-                <img src={logo} className="App-logo" alt="logo"/>
+                <img src={logo} className="App-logo" alt="capstone logo"/>
             </header>
             <div className="menu-bar">
                 <h4 className="menu-item">
-                    <a><Link to= "/">HomePage</Link></a>
+                    <li><Link to= "/">HomePage</Link></li>
                 </h4>
                 <h4 className="menu-item">
                     <li><Link to= "/Guide">Guide</Link></li>
