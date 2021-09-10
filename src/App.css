@@ -27,16 +27,13 @@
   align-items: top;
   justify-content: center;
 }
-
-.App-link {
-  color: #ffffff;
-}
  
  .student-info {
    font-style: italic;
  }
 
  li::marker {
+  /*links had a bullet attached. this CSS made the markers invis*/
   color: #2de0b4;
   font-size: 0;
 }

@@ -11,16 +11,16 @@ function Header() {
             </header>
             <div className="menu-bar">
                 <h4 className="menu-item">
-                    <li><Link to= "/">HomePage</Link></li>
+                    <li><Link to= "/">Home Page</Link></li>
                 </h4>
                 <h4 className="menu-item">
                     <li><Link to= "/Guide">Guide</Link></li>
                 </h4>
                 <h4 className="menu-item">
-                    <li><Link to= "/Monitor_Control">Monitor_Control</Link></li>
+                    <li><Link to= "/Monitor_Control">Monitor and Control</Link></li>
                 </h4>
                 <h4 className="menu-item">
-                    <li><Link to= "/My_Aquarium">My_Aquarium</Link></li>
+                    <li><Link to= "/My_Aquarium">My Aquarium</Link></li>
                 </h4>
             </div>
         </div>
