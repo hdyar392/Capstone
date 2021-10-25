@@ -1,11 +1,13 @@
 import React from 'react'
  
 import Header from '../components/header.js'
+import FishDictionary from '../components/fishDirectory.js'
  
 function Guide() {
   return (
     <div>
       <Header/>
+    
     </div>
   )
 }

@@ -1,3 +1,7 @@
+/* a { color: inherit;
+  text-decoration: inherit; }  */
+
+
 .App {
   text-align: center;
 }
@@ -6,18 +10,20 @@
   height: 150px;
   object-fit: cover;
 }
- 
+
+
 .menu-bar {
   background-color: #2de0b4;
   align-self: top;
   align-content: center;
   display: flex;
   justify-content: center;
+  
 }
  
 .menu-item {
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 10px; 
 }
  
 .App-header {
@@ -37,24 +43,18 @@
   color: #2de0b4;
   font-size: 0;
 }
- 
-/*
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-*/
- 
-/*
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-*/
 
+.user-manual {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.user-manual-title {
+  border-bottom: dotted;
+}
+
+
+.MuiCardHeader-content {
+  text-align: center;
+}
 
