@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+//SOURCES
+
+/* configure apache2 server
+https://infinitbility.com/deploy-react-application-on-ubuntu-apache
+*/
+
+/* source for photos of marine creatures
+https://www.liveaquaria.com/
+*/
+
+/* fetching json data from public/test.json into src/components/getData.js
+https://officialrajdeepsingh.dev/read-locally-json-file-use-fetch-method-in-react-js/
+*/ 
+
+/* scroll smoothly to top of 'Guide' page
+https://www.coderomeos.org/scroll-to-top-of-the-page-a-simple-react-component
+*/

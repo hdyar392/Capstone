@@ -4,11 +4,7 @@ import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
-import CardActions from '@mui/material/CardActions';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
 import Button from '@mui/material/Button';
 import DeleteIcon from '@mui/icons-material/Delete';
 import SendIcon from '@mui/icons-material/Send';
@@ -16,13 +12,6 @@ import Stack from '@mui/material/Stack';
 import { Grid } from '@material-ui/core';
 
 import list from './fishDirectory.js'
-
-
-//styles
-
-import '../styles/fishDirectory.css'
-
-
 
 const useStyles = makeStyles({
 
@@ -36,17 +25,16 @@ const useStyles = makeStyles({
     borderColor: "color",
     minWidth: "400px",
     maxWidth: "400px",
-    // boxShadow: '0 3px 5px 2px rgba(0, 255, 255, .6)'
   },
 
   card: {
-    boxShadow: '0 4px 10px 10px rgba(0, 255, 255, .9)'
+    boxShadow: '0px 3px 5px 5px rgba(0, 255, 255, .6)',
+    borderRadius: "5px"
   },
   
 })
   
-
-export default function RecipeReviewCard() {
+function MarineCard() {
   
   const classes = useStyles();
 
@@ -55,11 +43,10 @@ export default function RecipeReviewCard() {
 
     {list.map(fish => (
     <Grid item xs={12} sm={6} md={4} lg={4} xl={3} className={classes.gridItem}>
-    <Card className={classes.card}
-    
-    >
-      <CardHeader 
+    <Card className={classes.card}>
+      <CardHeader
         title={fish.Name}
+        titleTypographyProps={{variant: 'h6', fontWeight: 500 }}
       />
       <CardMedia
         component="img"
@@ -69,7 +56,7 @@ export default function RecipeReviewCard() {
         alt="loading..."
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.primary">
          Difficulty: {fish.Difficulty}<br></br>
          pH Level: {fish.pHLevel}<br></br>  
          SG: {fish.SG}<br></br>  
@@ -95,3 +82,11 @@ export default function RecipeReviewCard() {
   </Grid>
   );
 }
+
+export default MarineCard
+
+
+
+
+
+

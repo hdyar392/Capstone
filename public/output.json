@@ -1,0 +1,20 @@
+[
+  {
+    "temperature": 80
+  },
+  {
+    "pH": 8.1
+  },
+  {
+    "salinity": 1.02
+  },
+  {
+    "lightStatus": "ON"
+  },
+  {
+    "heaterStatus": "OFF"
+  },
+  {
+    "pumpStatus": "ON"
+  }
+]

@@ -2,16 +2,15 @@ import React from 'react'
 import '../App.css'
  
 function StudentInfo() {
-    return (
-        <div className="student-info">
-            <body >  
-                <p>Aqua-Sense brought to you by: Hannah Ghanie and Marcus Flamminio</p>
-                <p>Electrical Engineering Technology</p>
-                <p>ELY7 2021</p>
-                <a href="mailto:h_ghanie@fanshaweonline.ca">Contact Us</a>
-            </body>
-        </div>
-    )
+  return (
+    <div className="student-info">      
+      <br></br>  
+      Aqua-Sense brought to you by: Hannah Ghanie and Marcus Flamminio<br></br><br></br>    
+      Electrical Engineering Technology<br></br><br></br>
+      ELY7 2021<br></br><br></br>
+      <a href="mailto:h_ghanie@fanshaweonline.ca">Contact Us</a>
+    </div>
+  )
 }
  
 export default StudentInfo
