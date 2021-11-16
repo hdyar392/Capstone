@@ -15,7 +15,7 @@ const Counter = (defaultValue, temperature) => {
       : defaultValue;
   });
 
-  
+  console.log(temperature)
   //store the value of the temperature unpon clicking "set temperature" to the local storage
   useEffect(() => {
     //cookies.set('temperature', JSON.stringify(value), { path: '/' });
@@ -26,7 +26,7 @@ const Counter = (defaultValue, temperature) => {
 	const increaseTemperature = () => {
 		const newTemperature = temperatureValue + 1;
 		setTemperatureValue(newTemperature);
-
+    console.log(newTemperature)
 
     if (newTemperature > 70 ) {
 			setTemperatureColor('neutral');
@@ -54,6 +54,7 @@ const Counter = (defaultValue, temperature) => {
 			setTemperatureValue(65);
 		}
 	};
+  
 
 	//display the temp button and also include button to set the temperature
 	return (
